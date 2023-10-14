@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>j's Fresh Kitchen</title>
+    <style>
+      body
+      {
+        background-color: black;
+        background-size: 100%;
+        background-repeat: no-repeat;
+      }
+      .left
+      {
+        position: absolute;
+        left: 1%;
+        top: 2%;
+      }
+      .navbar
+      {
+        width: 65%;
+      }
+      .navbar a
+      {
+        color: aliceblue;
+        margin-top: 4%;
+        font-size: 150%;
+      }
+      .navbar a:hover
+      {
+        color: green;
+      }
+      .right
+      {
+       position: absolute;
+       display: inline-block;
+       right: 5%;
+       top: 3%;
+      }
+      .btn
+      {
+        margin-top: 25%;
+        background-color: thistle;
+        border: solid black;
+      }
+      .btn:hover
+      {
+        background-color: grey;
+      }
+      .container
+      {
+        color: aliceblue;
+        margin-left: 35%;
+        margin-top: 5%;
+      }
+      .button
+      {
+        margin-left: 1%;
+      }
+    </style>
+  </head>
+    <body>
+        <div class="left">
+            <img src="https://img.freepik.com/premium-vector/restaurant-retro-vintage-style-logo_642964-120.jpg?w=1380" width="8%" alt="no image">
+        </div>
+        <div class="con">
+          <center>
+          <div class="navbar">
+            <a href="rhome.html">Home</a>
+            <a href="#">Registration</a>
+            <a href="rlogin.html">Login</a>
+            <a href="rres.html">Reservation</a>
+            
+            <a href="rcon.html">Contact us</a>
+          </div>
+        </center>
+        </div>
+        <div class="right">
+          <button class="btn">search</button>
+        </div>
+
+        <div class="container">
+            <div class="form-group">
+                <lable class="col-sm-2" for="name">Name:</lable>
+                <div class="col-sm-3">
+                <input type="text" name="name" size=40% placeholder="Enter Name">
+                 </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2" for="password">Password:</label>
+                <div class="col-sm-3">
+                <input type="text" name="password" size=40% placeholder="Enter 6-Digit Password">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2" for="confirmpassword">Confirm Password:</label>
+                <div class="col-sm-3">
+                <input type="text" name="confirmpassword" size=40% placeholder="Re-Enter password">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2" for="email">Email Id:</label>
+                <div class="col-sm-3">
+                <input type="text" name="email" size=40% placeholder="Enter Email Id">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2" for="mnumber">Mobile Number:</label>
+                <div class="col-sm-3">
+                <input type="text" name="mnumber" size=40% placeholder="Enter Mobile number">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2" for="address">Address:</label>
+                <div class="col-sm-3">
+                <textarea name="address" rows="5" placeholder="Enter Building Name,Flat No/House No, Society/Rawhouse Name, Near Area Name, Pincode Of Your Area "></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2" for="dob">Date Of Birth:</label>
+                <div class="col-sm-3">
+                <input type="date" name="dob" size=40%>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2" for="city">City:</label>
+                <div class="col-sm-3">
+                <select name="city" id="city">
+                  <option value="">Select City</option>
+                 <option value="surat">Surat</option>
+                 <option value="Rajkot">Rajkot</option>   
+                 <option value="Ahemdabad">Ahemdabad</option>
+                 <option value="Jamnagar">Jamnagar</option>
+                 <option value="Vadodara">Vadodara</option>
+                 <option value="Mumbai">Mumbai</option>
+                 <option value="Valsad">Valsad</option>
+                 <option value="Navsari">Navsari</option>
+                 <option value="Anand">Anand</option>
+                 <option value="Mahesana">Mahesana</option>
+                 <option value="Bharuch">Bharuch</option>
+                 <option value="Ahwa">Ahwa</option>
+                </select>
+                </div>
+            </div>
+            <form>
+            <div class="button">
+                <button class="btn-success">Submit</button>
+                <button class="btn-danger">Reset</button>
+        </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>
